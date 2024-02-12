@@ -2,6 +2,7 @@ import pygame
 from player import Player
 from gtts import gTTS
 import os
+
 class Game:
     def __init__(self, screen_width=500, screen_height=500):
         pygame.init()
@@ -47,3 +48,11 @@ class Game:
         self.__screen.fill(self.__bg_color)
         self.__player.draw(self.__screen)
         pygame.display.flip()
+    @staticmethod
+    def audio():
+        audio_d=gTTS(text='Он толстенький,он очаровательный ,он пахнет мёдом!Это же попугай какапо',
+            lang='ru',
+            slow=False)
+        audio_d.save('img_and_music/file.mp3')
+        os.system('start img_and_music/file.mp3')
+        

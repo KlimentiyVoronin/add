@@ -2,7 +2,7 @@ import pygame
 class Player:
     def __init__(self, screen_width=500, screen_height=500):
         self.__sprite = pygame.transform.smoothscale(
-            pygame.image.load('img/player.jpeg').convert_alpha(),
+            pygame.image.load('img_and_music/player.jpeg').convert_alpha(),
             (screen_width // 4, screen_height // 4)
         )
         self.__rect = self.__sprite.get_rect()
