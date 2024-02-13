@@ -23,13 +23,13 @@ class Game:
         pygame.quit()
 
     def run(self):
+        self.audio()
         while not self.__game_end:
             self.__check_events()
             self.__move()
             self.__logic()
             self.__draw()
             self.__clock.tick(self.__fps)
-
     def __check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

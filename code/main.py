@@ -1,10 +1,6 @@
 from game import Game
-def main():
-    game=Game(720,480)
-    game.audio()
+def main()->None:
+    game:Game=Game(720,480)
     game.run()
-
-
-
-if __name__ == "__main__":  # Если файл запущен как исполняемый
-    main()  # Запустить главную функцию
+if __name__ == "__main__": 
+    main() 
