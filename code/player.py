@@ -8,7 +8,7 @@ class Player:
         :param screen_height: Высота экрана 
         """ 
         self.__sprite = pygame.transform.smoothscale(
-            pygame.image.load('img_and_music/player.jpeg').convert_alpha(),
+            pygame.image.load('playa.jpeg').convert_alpha(),
             (screen_width // 4, screen_height // 4)
         )
         self.__rect = self.__sprite.get_rect()
