@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import os
 import sys
-sys.path.insert(0, os.path.abspath('python_kakapo/engine/'))
+sys.path.insert(0, os.path.abspath('docs/source/'))
 project = 'Parrot Kakapo'
 copyright = '2024, Kliment'
 author = 'Kliment'
