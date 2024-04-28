@@ -1,4 +1,4 @@
-from engine.game import Game
+from game import Game
 def main()->None:
     '''
     Создает объект класса Game и запускает игру

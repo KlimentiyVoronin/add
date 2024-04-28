@@ -1,5 +1,5 @@
 Логика игры
 ===========
 
-.. automodule:: engine.game
+.. automodule:: game
     :members:

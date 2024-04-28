@@ -11,8 +11,8 @@ Welcome to Parrot Kakapo's documentation!
    :caption: Структура проекта:
 
    main
-   engine.game
-   engine.player
+   game
+   player
 
 Indices and tables
 ==================

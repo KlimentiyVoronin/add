@@ -1,5 +1,5 @@
 import pygame
-from engine.player import Player
+from player import Player
 from gtts import gTTS
 import os
 

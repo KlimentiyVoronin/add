@@ -1,5 +1,5 @@
 Создание игрока
 ===============
 
-.. automodule:: engine.player
+.. automodule:: player
     :members:
