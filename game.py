@@ -5,12 +5,9 @@ import os
 
 class Game:
     def __init__(self, screen_width:int=500, screen_height:int=500)->None:
-        """ 
-        Создает объект для управления игрой. 
-        
+        """ Создает объект для управления игрой. 
         :param screen_width: Ширина экрана
-        :param screen_height: Высота экрана
-        """
+        :param screen_height: Высота экрана"""
         pygame.init()
         self.__width:int = screen_width
         self.__height:int = screen_height
