@@ -1,5 +1,5 @@
 Основная функция main
 =====================
 
-.. automodule:: main
+.. automodule:: main.main
     :members:

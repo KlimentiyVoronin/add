@@ -1,5 +1,5 @@
 Создание класса игрока
 ======================
 
-.. automodule:: player
+.. automodule:: player.Player
     :members:
