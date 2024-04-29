@@ -8,9 +8,8 @@ class Game:
         """ 
         Создает объект для управления игрой. 
         
-        Args:
-            screen_width (int): Ширина экрана
-            screen_height (int): Высота экрана
+        :param screen_width: Ширина экрана
+        :param screen_height: Высота экрана
         """
         pygame.init()
         self.__width:int = screen_width
@@ -82,5 +81,5 @@ class Game:
             lang='ru',
             slow=False)
         audio_d.save('img_and_music/file.mp3')
-        os.system('start img_and_music/file.mp3')
+        os.system('start img_and_music/file.mp3')     
         
