@@ -1,5 +1,5 @@
-Создание класса игрока
+Создание объекта игрок
 ======================
 
-.. automodule:: player.Player
+.. autoclass:: src.player.Player
     :members:

@@ -1,5 +1,5 @@
 Логика игры
 ===========
 
-.. automodule:: game.Game
+.. autoclass:: src.game.Game
     :members:

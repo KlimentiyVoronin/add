@@ -1,18 +1,20 @@
-.. Parrot Kakapo documentation master file, created by
-   sphinx-quickstart on Sun Apr 28 17:14:18 2024.
+.. Kakapo documentation master file, created by
+   sphinx-quickstart on Tue Apr 30 06:39:48 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Parrot Kakapo's documentation!
-=========================================
+Welcome to Kakapo's documentation!
+==================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+
    main
    game
    player
+
 
 Indices and tables
 ==================
